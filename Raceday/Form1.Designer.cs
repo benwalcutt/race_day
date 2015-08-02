@@ -47,6 +47,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
             this.grpWager = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblThird = new System.Windows.Forms.Label();
+            this.lblSecond = new System.Windows.Forms.Label();
+            this.lblFirst = new System.Windows.Forms.Label();
             this.btnClearWager = new System.Windows.Forms.Button();
             this.rdoCar10 = new System.Windows.Forms.RadioButton();
             this.rdoCar9 = new System.Windows.Forms.RadioButton();
@@ -64,12 +70,6 @@
             this.rdoCar1 = new System.Windows.Forms.RadioButton();
             this.lblFunds = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblFirst = new System.Windows.Forms.Label();
-            this.lblSecond = new System.Windows.Forms.Label();
-            this.lblThird = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.grpWager.SuspendLayout();
             this.SuspendLayout();
@@ -251,6 +251,57 @@
             this.grpWager.TabStop = false;
             this.grpWager.Text = "Wagering Center";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 310);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Third Place:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(11, 286);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 13);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Second Place:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 262);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "First Place:";
+            // 
+            // lblThird
+            // 
+            this.lblThird.AutoSize = true;
+            this.lblThird.Location = new System.Drawing.Point(102, 310);
+            this.lblThird.Name = "lblThird";
+            this.lblThird.Size = new System.Drawing.Size(0, 13);
+            this.lblThird.TabIndex = 16;
+            // 
+            // lblSecond
+            // 
+            this.lblSecond.AutoSize = true;
+            this.lblSecond.Location = new System.Drawing.Point(102, 286);
+            this.lblSecond.Name = "lblSecond";
+            this.lblSecond.Size = new System.Drawing.Size(0, 13);
+            this.lblSecond.TabIndex = 16;
+            // 
+            // lblFirst
+            // 
+            this.lblFirst.AutoSize = true;
+            this.lblFirst.Location = new System.Drawing.Point(102, 262);
+            this.lblFirst.Name = "lblFirst";
+            this.lblFirst.Size = new System.Drawing.Size(0, 13);
+            this.lblFirst.TabIndex = 17;
+            // 
             // btnClearWager
             // 
             this.btnClearWager.Location = new System.Drawing.Point(13, 107);
@@ -427,57 +478,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Funds: ";
             // 
-            // lblFirst
-            // 
-            this.lblFirst.AutoSize = true;
-            this.lblFirst.Location = new System.Drawing.Point(102, 262);
-            this.lblFirst.Name = "lblFirst";
-            this.lblFirst.Size = new System.Drawing.Size(0, 13);
-            this.lblFirst.TabIndex = 17;
-            // 
-            // lblSecond
-            // 
-            this.lblSecond.AutoSize = true;
-            this.lblSecond.Location = new System.Drawing.Point(102, 286);
-            this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(0, 13);
-            this.lblSecond.TabIndex = 16;
-            // 
-            // lblThird
-            // 
-            this.lblThird.AutoSize = true;
-            this.lblThird.Location = new System.Drawing.Point(102, 310);
-            this.lblThird.Name = "lblThird";
-            this.lblThird.Size = new System.Drawing.Size(0, 13);
-            this.lblThird.TabIndex = 16;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 262);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "First Place:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 286);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 13);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Second Place:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 310);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 13);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Third Place:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -499,7 +499,7 @@
             this.Controls.Add(this.btnCar1);
             this.Controls.Add(this.btnStart);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Race Day";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.grpWager.ResumeLayout(false);
